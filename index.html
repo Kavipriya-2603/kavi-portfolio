@@ -11,9 +11,6 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-    /* =========================
-   GLOBAL
-========================= */
 
 *{
     margin:0;
@@ -224,9 +221,12 @@ p{
 
 .skills{
     display:flex;
-    flex-wrap:wrap;
+    flex-direction: column;
+    flex-wrap:wrap; 
     justify-content:center;
     gap:15px;
+    display: inline-block;
+    margin-left: 490px;
 }
 
 .skills span{
@@ -614,27 +614,21 @@ footer p{
     <!-- SKILLS -->
 
     <section id="skills" class="section">
-
         <div class="container">
-
             <h1>Skills</h1>
-
             <div class="skills">
-
-                <span>Java</span><br>
-                <span>SQL</span><br>
-                <span>HTML</span><br>
-                <span> CSS</span><br>
-                <span>JavaScript</span><br>
-                <span>JDBC</span><br>
+                <center>
+                <span>Java</span> <br><br><br>
+                <span>SQL</span> <br><br><br>
+                <span>HTML</span> <br><br><br>
+                <span> CSS</span> <br><br><br>
+                <span>JavaScript</span> <br><br><br>
+                <span>JDBC</span><br><br><br>
                 <span>Servlet</span>
-
+                </center>
             </div>
-
         </div>
-
     </section>
-
     <!-- EXPERIENCE -->
 
     <section id="experience" class="section">
@@ -684,7 +678,7 @@ footer p{
 <p class="dog">
 <b>Tech Stack: Java, JDBC, Servlet</b><br>
 <ul class="aiu">
-    <li>Developed a Java-based application for managing dog adoption processes.</li><br>
+    <li><P>Developed a Java-based application for managing dog adoption processes.</li><br>
     <li>Implemented user authentication(registration & login).</li><br>
     <li>Designed and managed relational database using secure queries(PreparedStatement).</li><br>
     <li>Applied OOPs principles for modular and maintainable code.</li>
